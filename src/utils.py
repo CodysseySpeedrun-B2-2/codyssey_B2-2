@@ -28,6 +28,8 @@ def multiply(a: int | float, b: int | float) -> int | float:
 
     >>> multiply(2, 3)
     6
+    >>> multiply(2, 0)
+    0
     """
     return a * b
 
@@ -37,5 +39,5 @@ if __name__ == "__main__":
     print("[RUN] utils test suite")
     assert subtract(3, 1) == 2 and subtract(1, 3) == -2
     assert add(1, 2) == 3 and add(-1, 1) == 0
-    assert multiply(2, 3) == 6
+    assert multiply(2, 3) == 6 and multiply(2, 0) == 0
     print("[PASS] all tests passed")
