@@ -43,17 +43,24 @@ Changes to be committed:
 
 ### 상황
 
-- (상황-amend)
+- 커밋 메시지를 `docs: 브랜치 네이밍과 커밋 컨벤션`으로 남겼는데 무엇을 추가했는지(규칙 두 절)가 드러나지 않아, 방금 만든 커밋의 메시지만 고치기로 했다.
 
 ### 시도한 명령/절차
 
 ```txt
-(amend-출력)
+$ git add docs/CONTRIBUTING.md
+$ git commit -m "docs: 브랜치 네이밍과 커밋 컨벤션"
+[feature/contributing-a 335dd7e] docs: 브랜치 네이밍과 커밋 컨벤션
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+$ git commit --amend -m "docs: 브랜치 네이밍 규칙과 커밋 컨벤션 추가"
+[feature/contributing-a 69fbc64] docs: 브랜치 네이밍 규칙과 커밋 컨벤션 추가
+ Date: Fri Oct 23 06:34:23 2026 +0000
+ 1 file changed, 8 insertions(+), 4 deletions(-)
 ```
 
 ### 결과
 
-- (결과-amend)
+- `git commit --amend`로 해시는 바뀌었고 파일 내용은 그대로다. 아직 push하지 않은 로컬 커밋이라 공유 이력은 건드리지 않았다.
 
 ## 시나리오: stash / stash pop (작업 보관 후 전환)
 
