@@ -39,6 +39,10 @@ def divide(a: int | float, b: int | float) -> float:
 
     >>> divide(6, 2)
     3.0
+    >>> divide(1, 0)
+    Traceback (most recent call last):
+    ...
+    ZeroDivisionError: division by zero
     """
     if b == 0:
         raise ZeroDivisionError("division by zero")
@@ -51,5 +55,5 @@ if __name__ == "__main__":
     assert subtract(3, 1) == 2 and subtract(1, 3) == -2
     assert add(1, 2) == 3 and add(-1, 1) == 0
     assert multiply(2, 3) == 6 and multiply(2, 0) == 0
-    assert divide(6, 2) == 3.0
+    assert divide(6, 2) == 3.0 and divide(5, 2) == 2.5
     print("[PASS] all tests passed")
