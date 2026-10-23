@@ -70,17 +70,27 @@ $ git commit --amend -m "docs: 브랜치 네이밍 규칙과 커밋 컨벤션 �
 
 ### 상황
 
-- (상황-stash)
+- 리뷰 규칙 문장을 고치던 중 main의 최신 상태를 확인해야 해서, 커밋하지 않은 변경을 잠시 치워 두고 브랜치를 오갔다.
 
 ### 시도한 명령/절차
 
 ```txt
-(stash-출력)
+$ git stash push -u -m "리뷰 규칙 문장 다듬기"
+Saved working directory and index state On feature/contributing-b: 리뷰 규칙 문장 다듬기
+$ git stash pop
+On branch feature/contributing-b
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/CONTRIBUTING.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (9653168cab70a50287b740f3ad100c0e0af7b18f)
 ```
 
 ### 결과
 
-- (결과-stash)
+- `git stash pop`으로 변경이 그대로 돌아왔고(`git status --short`에 수정 파일) 충돌 없이 이어서 작업했다.
 
 ## 시나리오: revert (원격에 push된 커밋 취소)
 

@@ -68,18 +68,27 @@ def subtract(a: int | float, b: int | float) -> int | float:
 
 ### 상황
 
-- (상황2)
+- PR-06이 먼저 병합되면서 `## 팀 원칙` 아래 두 줄이 커밋 원칙으로 바뀌었고, 같은 자리(원칙 한 줄)를 각자 채운 내 브랜치가 병합을 멈췄다.
 
 ### 충돌 내용
 
 ```txt
-(충돌-내용2)
+$ git merge origin/main
+Auto-merging docs/CONTRIBUTING.md
+CONFLICT (content): Merge conflict in docs/CONTRIBUTING.md
+Auto-merging docs/troubleshooting-log.md
+Automatic merge failed; fix conflicts and then commit the result.
+$ git status --short
+UU docs/CONTRIBUTING.md
+M  docs/troubleshooting-log.md
 ```
 
 ### 해결 과정
 
-- (해결-과정2)
+- `git merge origin/main`으로 충돌을 받아 `docs/CONTRIBUTING.md`의 마커를 확인했다.
+- 둘 다 규칙이라 버릴 이유가 없어 main을 기준으로 삼고(`git checkout --theirs`) 브랜치·커밋·PR/리뷰 원칙 세 줄을 다시 넣었다.
+- 같은 TODO 줄을 둘이 동시에 채우지 않도록 앞으로는 절을 나눠 맡는다는 것을 팀 채팅에 남겼다.
 
 ### 결과
 
-- (결과2)
+- PR-07이 병합됐고 `## 팀 원칙`에는 세 줄이 남았다. 충돌 2회(모두 같은 자리)로 요건을 채웠다.
