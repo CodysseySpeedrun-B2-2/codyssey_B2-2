@@ -6,6 +6,8 @@ def subtract(a: int | float, b: int | float) -> int | float:
 
     >>> subtract(3, 1)
     2
+    >>> subtract(1, 3)
+    -2
     """
     return a - b
 
@@ -13,5 +15,5 @@ def subtract(a: int | float, b: int | float) -> int | float:
 if __name__ == "__main__":
     # 새 함수를 추가하면 여기에 assert 도 함께 넣는다.
     print("[RUN] utils test suite")
-    assert subtract(3, 1) == 2
+    assert subtract(3, 1) == 2 and subtract(1, 3) == -2
     print("[PASS] all tests passed")
