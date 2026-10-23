@@ -100,14 +100,20 @@ Dropped refs/stash@{0} (9653168cab70a50287b740f3ad100c0e0af7b18f)
 
 ### 상황
 
-- (상황-revert)
+- revert 실습용 문구를 README에 넣어 push한 뒤, push된 커밋을 취소해야 하는 상황을 만들었다.
 
 ### 시도한 명령/절차
 
 ```txt
-(revert-출력)
+$ git commit -am "docs: revert 실습용 임시 문구"
+[feature/submission fb75444] docs: revert 실습용 임시 문구
+ 1 file changed, 2 insertions(+)
+$ git revert --no-commit HEAD
+$ git commit -m "docs: revert 실습용 임시 문구 되돌리기"
+[feature/submission e9a0448] docs: revert 실습용 임시 문구 되돌리기
+ 1 file changed, 2 deletions(-)
 ```
 
 ### 결과
 
-- (결과-revert)
+- `git revert --no-commit HEAD`로 되돌린 내용을 확인한 뒤 커밋했다. 이력은 지워지지 않고 취소 커밋이 하나 더 남는다(공유 브랜치에서 안전).
