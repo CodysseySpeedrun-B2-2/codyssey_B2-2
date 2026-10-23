@@ -29,7 +29,7 @@
 ### leehnmn
 
 - 만든 Issue: https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/issues/9, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/issues/15
-- PR(병합됨): https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/10
+- PR(병합됨): https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/10, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/16
 - 결과물 기여 커밋: https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/commit/e9a0de54c3c3679ea4729fa8e29c0ad4c8496b1b
 
 ## Key Docs
