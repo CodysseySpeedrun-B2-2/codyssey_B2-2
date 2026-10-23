@@ -8,7 +8,7 @@
 ## 브랜치 네이밍 규칙
 
 - `feature/<topic>` 형식. 주제는 영문 소문자와 하이픈(-)으로 쓴다
-- 예: `feature/<id>_<topic>`, 소문자 ID
+- 예: `feature/login`, `feature/sign-in`
 
 ## 커밋 메시지 컨벤션
 
