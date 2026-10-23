@@ -11,7 +11,7 @@
 ### ashofrondol — 팀장
 
 - 만든 Issue: https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/issues/1, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/issues/5
-- PR(병합됨): https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/2, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/6
+- PR(병합됨): https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/2, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/6, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/17, https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/pull/19
 - 결과물 기여 커밋: https://github.com/CodysseySpeedrun-B2-2/codyssey_B2-2/commit/1ac855e385ea9c8b1ff6f0a5ce38f66f3192fb83
 
 ### codewhite7777
