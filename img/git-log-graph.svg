@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="614" height="878" viewBox="0 0 614 878" font-family="DejaVu Sans Mono, Consolas, Menlo, monospace">
+<rect width="614" height="878" rx="10" fill="#101418"/>
+<rect width="614" height="42" rx="10" fill="#1d232b"/>
+<rect y="32" width="614" height="10" fill="#1d232b"/>
+<circle cx="18" cy="21" r="5" fill="#ff5f56"/>
+<circle cx="34" cy="21" r="5" fill="#ffbd2e"/>
+<circle cx="50" cy="21" r="5" fill="#27c93f"/>
+<text x="78" y="26" fill="#c8d1dc" font-size="13">git log --graph --all</text>
+<text x="18" y="74" fill="#e6edf3" font-size="14" xml:space="preserve">* e9a0448 leehnmn  (HEAD -&gt; feature/submission)</text>
+<text x="18" y="94" fill="#e6edf3" font-size="14" xml:space="preserve">* fb75444 leehnmn  (origin/feature/submission)</text>
+<text x="18" y="114" fill="#e6edf3" font-size="14" xml:space="preserve">*   dd61f9f s.hyun-dev  (origin/main, origin/HEAD, main)</text>
+<text x="18" y="134" fill="#e6edf3" font-size="14" xml:space="preserve">|\  </text>
+<text x="18" y="154" fill="#e6edf3" font-size="14" xml:space="preserve">| *   aed4f9e s.hyun-dev </text>
+<text x="18" y="174" fill="#e6edf3" font-size="14" xml:space="preserve">| |\  </text>
+<text x="18" y="194" fill="#e6edf3" font-size="14" xml:space="preserve">| |/  </text>
+<text x="18" y="214" fill="#e6edf3" font-size="14" xml:space="preserve">|/|   </text>
+<text x="18" y="234" fill="#e6edf3" font-size="14" xml:space="preserve">* |   4adf840 codewhite7777 </text>
+<text x="18" y="254" fill="#e6edf3" font-size="14" xml:space="preserve">|\ \  </text>
+<text x="18" y="274" fill="#e6edf3" font-size="14" xml:space="preserve">| * | e559a8a codewhite7777 </text>
+<text x="18" y="294" fill="#e6edf3" font-size="14" xml:space="preserve">| * | 0f1603e codewhite7777 </text>
+<text x="18" y="314" fill="#e6edf3" font-size="14" xml:space="preserve">| * | 69fbc64 codewhite7777 </text>
+<text x="18" y="334" fill="#e6edf3" font-size="14" xml:space="preserve">|/ /  </text>
+<text x="18" y="354" fill="#e6edf3" font-size="14" xml:space="preserve">| * 93b5c28 s.hyun-dev </text>
+<text x="18" y="374" fill="#e6edf3" font-size="14" xml:space="preserve">|/  </text>
+<text x="18" y="394" fill="#e6edf3" font-size="14" xml:space="preserve">*   cbd296d leehnmn </text>
+<text x="18" y="414" fill="#e6edf3" font-size="14" xml:space="preserve">|\  </text>
+<text x="18" y="434" fill="#e6edf3" font-size="14" xml:space="preserve">| * da31710 leehnmn  (origin/feature/divide-fn, feature/divide-fn)</text>
+<text x="18" y="454" fill="#e6edf3" font-size="14" xml:space="preserve">| * e9a0de5 leehnmn </text>
+<text x="18" y="474" fill="#e6edf3" font-size="14" xml:space="preserve">|/  </text>
+<text x="18" y="494" fill="#e6edf3" font-size="14" xml:space="preserve">*   4460ba8 s.hyun-dev </text>
+<text x="18" y="514" fill="#e6edf3" font-size="14" xml:space="preserve">|\  </text>
+<text x="18" y="534" fill="#e6edf3" font-size="14" xml:space="preserve">| * 4634c4c s.hyun-dev  (origin/feature/multiply-fn)</text>
+<text x="18" y="554" fill="#e6edf3" font-size="14" xml:space="preserve">| * 73357f2 s.hyun-dev </text>
+<text x="18" y="574" fill="#e6edf3" font-size="14" xml:space="preserve">|/  </text>
+<text x="18" y="594" fill="#e6edf3" font-size="14" xml:space="preserve">*   11e9bd6 JeongSeYoung </text>
+<text x="18" y="614" fill="#e6edf3" font-size="14" xml:space="preserve">|\  </text>
+<text x="18" y="634" fill="#e6edf3" font-size="14" xml:space="preserve">| *   78dbef9 JeongSeYoung  (origin/feature/add-fn)</text>
+<text x="18" y="654" fill="#e6edf3" font-size="14" xml:space="preserve">| |\  </text>
+<text x="18" y="674" fill="#e6edf3" font-size="14" xml:space="preserve">| |/  </text>
+<text x="18" y="694" fill="#e6edf3" font-size="14" xml:space="preserve">|/|   </text>
+<text x="18" y="714" fill="#e6edf3" font-size="14" xml:space="preserve">* |   87d9997 codewhite7777 </text>
+<text x="18" y="734" fill="#e6edf3" font-size="14" xml:space="preserve">|\ \  </text>
+<text x="18" y="754" fill="#e6edf3" font-size="14" xml:space="preserve">| * | 6df57c8 codewhite7777 </text>
+<text x="18" y="774" fill="#e6edf3" font-size="14" xml:space="preserve">| * | fdd28d6 codewhite7777 </text>
+<text x="18" y="794" fill="#e6edf3" font-size="14" xml:space="preserve">|/ /  </text>
+<text x="18" y="814" fill="#e6edf3" font-size="14" xml:space="preserve">| * 1ac855e JeongSeYoung </text>
+<text x="18" y="834" fill="#e6edf3" font-size="14" xml:space="preserve">|/  </text>
+<text x="18" y="854" fill="#e6edf3" font-size="14" xml:space="preserve">*   6dbd224 JeongSeYoung </text>
+</svg>

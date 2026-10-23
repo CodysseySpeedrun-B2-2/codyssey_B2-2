@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="421" height="278" viewBox="0 0 421 278" font-family="DejaVu Sans Mono, Consolas, Menlo, monospace">
+<rect width="421" height="278" rx="10" fill="#101418"/>
+<rect width="421" height="42" rx="10" fill="#1d232b"/>
+<rect y="32" width="421" height="10" fill="#1d232b"/>
+<circle cx="18" cy="21" r="5" fill="#ff5f56"/>
+<circle cx="34" cy="21" r="5" fill="#ffbd2e"/>
+<circle cx="50" cy="21" r="5" fill="#27c93f"/>
+<text x="78" y="26" fill="#c8d1dc" font-size="13">main 보호 규칙(실제 설정)</text>
+<text x="18" y="74" fill="#e6edf3" font-size="14" xml:space="preserve">Settings &gt; Branches &gt; main</text>
+<text x="18" y="94" fill="#e6edf3" font-size="14" xml:space="preserve"></text>
+<text x="18" y="114" fill="#e6edf3" font-size="14" xml:space="preserve">Branch name pattern                  : main</text>
+<text x="18" y="134" fill="#e6edf3" font-size="14" xml:space="preserve">Require a pull request before merging: on</text>
+<text x="18" y="154" fill="#e6edf3" font-size="14" xml:space="preserve">  Require approvals                  : 1</text>
+<text x="18" y="174" fill="#e6edf3" font-size="14" xml:space="preserve">  Dismiss stale approvals            : off</text>
+<text x="18" y="194" fill="#e6edf3" font-size="14" xml:space="preserve">Require conversation resolution      : on</text>
+<text x="18" y="214" fill="#e6edf3" font-size="14" xml:space="preserve">Do not allow bypassing the settings  : on</text>
+<text x="18" y="234" fill="#e6edf3" font-size="14" xml:space="preserve">Allow force pushes                   : off</text>
+<text x="18" y="254" fill="#e6edf3" font-size="14" xml:space="preserve">Allow deletions                      : off</text>
+</svg>
