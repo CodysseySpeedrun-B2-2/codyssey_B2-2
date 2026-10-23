@@ -6,7 +6,7 @@
 <circle cx="34" cy="21" r="5" fill="#ffbd2e"/>
 <circle cx="50" cy="21" r="5" fill="#27c93f"/>
 <text x="78" y="26" fill="#c8d1dc" font-size="13">충돌: src/utils.py (PR-05 vs PR-02)</text>
-<text x="18" y="74" fill="#e6edf3" font-size="14" xml:space="preserve">$ sed -n /^&lt;&lt;&lt;&lt;&lt;&lt;&lt;/,/^&gt;&gt;&gt;&gt;&gt;&gt;&gt;/p src/utils.py</text>
+<text x="18" y="74" fill="#e6edf3" font-size="14" xml:space="preserve">$ sed -n '/^&lt;&lt;&lt;&lt;&lt;&lt;&lt;/,/^&gt;&gt;&gt;&gt;&gt;&gt;&gt;/p' src/utils.py</text>
 <text x="18" y="94" fill="#e6edf3" font-size="14" xml:space="preserve">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</text>
 <text x="18" y="114" fill="#e6edf3" font-size="14" xml:space="preserve">def add(a: int | float, b: int | float) -&gt; int | float:</text>
 <text x="18" y="134" fill="#e6edf3" font-size="14" xml:space="preserve">    """a와 b를 더한 값을 반환한다.</text>

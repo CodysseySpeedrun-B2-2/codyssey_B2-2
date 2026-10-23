@@ -1,4 +1,4 @@
-"""사칙연산 유틸.  python src/utils.py 로 스스로 검사한다."""
+"""사칙연산 유틸.  python3 src/utils.py 로 스스로 검사한다."""
 
 
 def subtract(a: int | float, b: int | float) -> int | float:

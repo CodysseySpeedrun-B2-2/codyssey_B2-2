@@ -20,7 +20,7 @@ CONFLICT (content): Merge conflict in src/utils.py
 Automatic merge failed; fix conflicts and then commit the result.
 $ git status --short
 UU src/utils.py
-$ sed -n /^<<<<<<</,/^>>>>>>>/p src/utils.py
+$ sed -n '/^<<<<<<</,/^>>>>>>>/p' src/utils.py
 <<<<<<< HEAD
 def add(a: int | float, b: int | float) -> int | float:
     """a와 b를 더한 값을 반환한다.
@@ -53,7 +53,7 @@ def subtract(a: int | float, b: int | float) -> int | float:
 
 - `git merge origin/main`으로 충돌을 받아 마커와 `git status`를 기록했다.
 - 둘 다 '함수 추가'라 버릴 이유가 없어 main 쪽 파일을 기준으로 삼고(`git checkout --theirs`) 내 add()와 assert를 다시 넣었다.
-- 다시 넣은 뒤 `python src/utils.py`가 `[PASS]`인 것을 보고 커밋했다.
+- 다시 넣은 뒤 `python3 src/utils.py`가 `[PASS]`인 것을 보고 커밋했다.
 
 ### 결과
 
