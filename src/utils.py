@@ -34,10 +34,22 @@ def multiply(a: int | float, b: int | float) -> int | float:
     return a * b
 
 
+def divide(a: int | float, b: int | float) -> float:
+    """a를 b로 나눈 값을 반환한다. 0으로 나누면 ZeroDivisionError.
+
+    >>> divide(6, 2)
+    3.0
+    """
+    if b == 0:
+        raise ZeroDivisionError("division by zero")
+    return a / b
+
+
 if __name__ == "__main__":
     # 새 함수를 추가하면 여기에 assert 도 함께 넣는다.
     print("[RUN] utils test suite")
     assert subtract(3, 1) == 2 and subtract(1, 3) == -2
     assert add(1, 2) == 3 and add(-1, 1) == 0
     assert multiply(2, 3) == 6 and multiply(2, 0) == 0
+    assert divide(6, 2) == 3.0
     print("[PASS] all tests passed")
