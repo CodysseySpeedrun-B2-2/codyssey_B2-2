@@ -14,7 +14,7 @@ assignees: ""
 
 - [ ]
 - [ ] PR 본문에 `Closes #<이 이슈 번호>`, What / Why / How
-- [ ] `python src/utils.py` → `[PASS] all tests passed`
+- [ ] `python3 src/utils.py` → `[PASS] all tests passed`
 
 ## 브랜치와 리뷰
 
