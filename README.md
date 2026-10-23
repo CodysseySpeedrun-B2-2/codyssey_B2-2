@@ -36,5 +36,3 @@ python -c "from src.utils import add, divide; print(add(1, 2), divide(5, 2))"
 ```
 3 2.5
 ```
-
-- revert 실습용 임시 문구
